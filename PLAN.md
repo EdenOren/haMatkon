@@ -1,6 +1,7 @@
 # haMatkon — Development Plan
 
 **Stack:** Angular 19 (Standalone, Signals) · Ionic · Capacitor 7 · Django + DRF · PostgreSQL (Supabase)
+**Hosting:** GitHub Pages (FE) · Vercel (BE) · Supabase (DB)
 **Architecture:** Core / Shared / Features (Angular) · Django Apps (BE)
 **Branch Strategy:** One feature branch per phase. Merge to `main` when phase is complete.
 
@@ -139,6 +140,10 @@ be/
     wsgi.py
   apps/
     __init__.py
+
+── Vercel ──
+vercel.json               ← routes all /api/* to Django WSGI (BE on Vercel)
+.vercelignore             ← excludes src/, android/, node_modules/
 ```
 
 ---

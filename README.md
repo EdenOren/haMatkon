@@ -44,12 +44,18 @@ A **mobile-optimized Android experience** lets you cook without fighting your br
 
 haMatkon is built as a **cross-platform web and mobile application** using a **clean architecture** approach.
 
-This means the core recipe logic is separated from the user interface, making the app easier to maintain, extend, and optimize.
+The frontend, backend, and database are fully decoupled — the database is replaceable without touching a single line of application code.
+
+### Stack
+- **Frontend**: Angular 19 + Ionic — hosted on GitHub Pages
+- **Backend**: Django REST API — hosted on Vercel
+- **Database**: PostgreSQL via Supabase (swappable — one config line)
+- **Mobile**: Capacitor 7 wraps the web app as a native Android app
 
 ### Cloud Storage
 Recipes are securely synced so you can:
 
-- Save recipes on your laptop  
+- Save recipes on your laptop
 - Access them instantly on your phone
 
 ### Android Ready
