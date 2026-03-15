@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh:*)",
+      "Read(//c/Users/ASUS/Documents/Web Dev/**)",
+      "Bash(npx @angular/cli@latest new ha-matkon --directory haMatkon --style=scss --standalone --routing=false --force)",
+      "Bash(cd:*)",
+      "Bash(mkdir:*)",
+      "Bash(for app:*)",
+      "Bash(do)",
+      "Read(//c/Users/ASUS/Documents/Web Dev/haMatkon/be/apps/$app/**)",
+      "Bash(done)"
+    ]
+  }
+}

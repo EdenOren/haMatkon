@@ -1,0 +1,5 @@
+src/
+android/
+node_modules/
+dist/
+.angular/
